@@ -41,16 +41,61 @@ a {
     text-decoration: none;
 }
 
+
+
+
+
+
+
+
+
+
 .main {
-    max-width: 50%;
-    margin: 0 auto;
+    max-width: 45%;
+    margin: 30px auto;
+    border: 2px solid black;
+    padding: 30px;
+    border-radius: 5px;
 }
+
+.main-heading {
+    color: #DC2626;
+    padding: 5px 0;
+    border-bottom: 2px solid black;
+}
+
+.main-current-course {
+    padding: 20px 0;
+    color: #A5A8AE;
+}
+
+.main-current-unit {
+    padding: 5px 0;
+}
+
+button {
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #DC2626;
+    color: white;
+    font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    border: none;
+}
+
+
+
+
+
+
+
+
 
 .footer {
     width: 100%;
     background-color: black;
-    position: absolute;
-    bottom: 0;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -67,5 +112,10 @@ a {
 }
 
 .footer-left-links > a, .footer-middle-links > a, .footer-right-links > a {
-    padding:  20px 0;
+    padding:  10px 0;
+}
+
+.footer-title {
+    color: #A5A8AE;
+    padding: 10px 0;
 }
